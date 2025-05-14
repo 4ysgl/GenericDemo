@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-MyList liste = new MyList();
+        MyList liste = new MyList();
 
 
         liste.add(60);
@@ -11,18 +11,16 @@ MyList liste = new MyList();
         liste.add(90);
         liste.add(100);
         liste.add(110);
-    System.out.println("Size: " + liste.size());
-    System.out.println("Capacity: " + liste.getCapacity());
-    liste.print();
-        liste.add(33);
-        liste.add(5);
-        liste.add(2);
-        liste.add(90);
-        liste.add(2);
-        liste.add(10);
+        liste.add(" demo");
         System.out.println("Size: " + liste.size());
         System.out.println("Capacity: " + liste.getCapacity());
         liste.print();
+      //  liste.indexOf("aaa");  // GENERİC YAPI OLDUGU İÇİN LİSTEYE FARKLI VERİ TİPİNDE EKLEME YAPILABİLİYOR VEYA ARATILABİLİYORUZ
+liste.clear();
+liste.print();
 
-}
+
+
+
     }
+}
